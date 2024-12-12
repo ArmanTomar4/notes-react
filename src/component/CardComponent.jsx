@@ -1,6 +1,7 @@
 // import React from 'react'
 import Card from './Card'
-import './Card.css';import  IMG from './image/agum.png'
+import './Card.css';
+import  IMG from './image/agum.png'
 function CardComponent() {
   return (
     <>

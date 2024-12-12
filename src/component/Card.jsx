@@ -1,7 +1,7 @@
 // import React from 'react'
 import img from './image/agum.png';
-import Card from 'Card.css'
-export default function Card1(props) {
+import 'Card.css'
+export default function Card(props) {
   return (
     <>
         <div className="card">
@@ -11,5 +11,13 @@ export default function Card1(props) {
     </>
   )
 }
-
 // export default Card
+
+/**
+ * A function component that renders a Card
+ * 
+ * @param {Object} props - component props
+ * @param {string} [props.title] - title of the card
+ * @param {string} [props.img] - image url
+ * @returns {ReactElement} - the rendered card component
+ */
