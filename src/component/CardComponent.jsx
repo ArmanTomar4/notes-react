@@ -7,7 +7,9 @@ function CardComponent() {
     <>
       <h1 className='heading'>Card gallery</h1>
     <div className="cardComp">
-        <Card title='sister' img={IMG} />
+        <Card title='sister ' img={IMG} />
+        <Card title='sister ' img={IMG} />
+        <Card title='sister ' img={IMG} />
     </div>
     </>
   )

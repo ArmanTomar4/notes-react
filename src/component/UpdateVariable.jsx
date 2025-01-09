@@ -13,5 +13,4 @@ function UpdateVariable() {
     </>
   )
 }
-
 export default UpdateVariable
